@@ -1,10 +1,9 @@
 l=input().lower().split()
 s=''.join(l)
-c=[]
-for i in s:
-    if s.count(i)==1:
-        c.append(i)
-c.sort()
-for i in c:
+a='abcdefghijklmnopqrstuvwxyz'
+d=[]
+for i in a:
+    if i in s:
+        d.append(i)
+for i in d:
     print(i,end="")
-        
